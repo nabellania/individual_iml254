@@ -1,0 +1,110 @@
+   <style>
+        body {
+            margin: 0;
+            font-family: "Verdana", sans-serif;
+            background-color: #f5f3d9;
+            color: #543e36;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        marquee {
+            color: #ead69b;
+            font-size: 18px;
+            margin: 10px 0;
+            font-style: italic;
+        }
+
+        header {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        header a img {
+            width: 90%;
+            max-width: 80px;
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+
+        header a img:hover {
+            transform: scale(1.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #543e36;
+            margin-top: 20px;
+            font-size: 28px;
+        }
+
+        .main-banner img {
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .family-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .family-table td {
+            padding: 20px;
+            vertical-align: middle;
+        }
+
+        .family-table td img {
+            width: 60%;
+            border-radius: 8px;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .family-table td img:hover {
+            transform: scale(1.05);
+        }
+
+        .family-table li {
+            list-style: none;
+            text-align: left;
+        }
+
+        .family-table tr:nth-child(even) {
+            background-color: #dbb26f;
+        }
+
+        .top-link {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .top-link img {
+            width: 50px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .top-link img:hover {
+            transform: scale(1.2);
+        }
+
+        footer {
+            background-color: #543e36;
+            color: #f5f3d9;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>

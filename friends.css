@@ -1,0 +1,132 @@
+    <style>
+        /* General Reset and Styling */
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('image/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333; /* Default text color */
+    text-align: center;
+}
+
+marquee {
+    font-size: 20px;
+    color: #f2b705;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Navigation Table */
+table {
+    width: 100%;
+    margin: 10px 0;
+    border-spacing: 10px;
+}
+
+table td {
+    text-align: center;
+}
+
+table img {
+    width: 90px;
+    transition: transform 0.3s ease;
+}
+
+table img:hover {
+    transform: scale(1.1); /* Image hover effect */
+}
+
+/* Section Styling */
+h1 {
+    color: #ead69b;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #000;
+    margin: 20px 0;
+}
+
+h3 {
+    color: #5c4a2d;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Content Section */
+.content-section {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.friends-gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.friends-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Friends Table */
+.friends-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.friends-table td {
+    padding: 15px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.friends-table img {
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Video Styling */
+video {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ead69b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Back to Top Image */
+.center {
+    text-align: center;
+}
+
+.center img {
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+.center img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
